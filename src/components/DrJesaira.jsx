@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import glover from "../images/glover.jpg"
 
 const credentials = [
   "Licensed Professional Counselor (LPC)",
@@ -60,7 +61,7 @@ function DrJesaira() {
             <div className="relative mx-auto max-w-[520px] overflow-hidden rounded-t-[260px] bg-[#DDD1BE]">
               <div className="aspect-[4/5]">
                 <img
-                  src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1200&q=85"
+                  src={glover}
                   alt="Dr. Lady J"
                   className="h-full w-full object-cover object-center grayscale-[15%]"
                 />
